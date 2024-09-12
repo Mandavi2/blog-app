@@ -15,7 +15,7 @@ LoadDB();
 export async function GET (request){
    
 
-   return NextResponse.json({msg:"API working"})
+   return NextResponse.json({msg:"API is working"})
 }
 
 export async function POST(request){
